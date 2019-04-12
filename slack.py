@@ -47,7 +47,7 @@ def handle_command(command, channel):
     response = None
     # This is where you start to implement more commands!
     if command.startswith(EXAMPLE_COMMAND.lower()):
-        response = facts[random.randint(0,len(facts))]
+        response = facts[random.randint(0,len(facts)-1)]
 
     # Sends the response back to the channel
     slack_client.api_call(
