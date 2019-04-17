@@ -1,4 +1,4 @@
-FROM python:alpine3.7 AS test
+FROM python:alpine3.7 
 
 LABEL maintainer="Keith Hand <keithhand.dev>"
 LABEL version="1.0"
