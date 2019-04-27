@@ -13,6 +13,7 @@ starterbot_id = None
 RTM_READ_DELAY = 1 # 1 second delay between reading from RTM
 EXAMPLE_COMMAND = "give me a fact my guy"
 MENTION_REGEX = "^<@(|[WU].+?)>(.*)"
+attempts = 0
 
 def parse_bot_commands(slack_events):
     """
@@ -42,12 +43,27 @@ def handle_command(command, channel):
     """
     # Default response is help text for the user
     default_response = "Not sure what you mean. Try *{}*.".format(EXAMPLE_COMMAND)
+    global attempts
 
     # Finds and executes the given command, filling in response
     response = None
     # This is where you start to implement more commands!
     if command.startswith(EXAMPLE_COMMAND.lower()):
-        response = facts[random.randint(0,len(facts)-1)]
+        fact = random.randint(0,len(facts)-1)
+        try:
+            if (fact == last_fact):
+                fact += 1
+        except: 
+            last_fact = 0
+        response = facts[fact]
+        last_fact = fact
+        attempts = 0
+    else:
+        attempts += 1
+
+    if attempts == 3:
+        response = ":middle_finger:"
+        attempts = 0
 
     # Sends the response back to the channel
     slack_client.api_call(
