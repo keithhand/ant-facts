@@ -8,5 +8,6 @@ facts = [
     "Ants can be found on every single continent except Antarctica - Ironic really, when you consider the name…",
     "Ants are social insects which live in colonies - The colony, also called a formicary, is made up of one or more egg-laying queens and a large amount of female “worker” ants who tend to her, build and maintain the nest, forage for food and and care for the young. Male ants have wings and their only function is to mate with the queen.",
     "Ants don’t have ears, and some of them don’t have eyes! - Ants “listen” by feeling vibrations from the ground through their feet, and eye-less ants such as the driver ant species can communicate by using their antennae! Plus, they can send chemical signals (called pheremones) released through their body to send messages to other ants! They send out warnings when danger’s near, leave trails of pheremones leading to food sources and even use them to attract a mate – a sort of ant love potion!",
-    "The largest ant’s nest ever found was over 3,700 miles wide! - Found in Argentina in 2000, the ginormous colony housed 33 ant populations which had merged into one giant supercolony, with millions of nests and billions of workers!"
+    "The largest ant’s nest ever found was over 3,700 miles wide! - Found in Argentina in 2000, the ginormous colony housed 33 ant populations which had merged into one giant supercolony, with millions of nests and billions of workers!",
+    "Ants are small and can be eaten with chocoalte"
 ]
