@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ant-facts:
+    container_name: ant-facts
+    image: ant-facts:latest
+    build: 
+        context: ../..
+        dockerfile: private/docker/Dockerfile
+    restart: always
+    command: slack.py
