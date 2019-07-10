@@ -3,7 +3,7 @@ services:
   bot:
     container_name: ant-facts
     image: ant-facts:latest
-    build: .
+    build: private/docker/Dockerfile
     restart: always
     command: slack.py
     volumes:
