@@ -1,4 +1,4 @@
-facts = [
+module.exports = [
     "There are over 12,000 ant species worldwide - Ranging from the ant you might find scuttling across your picnic to the ants building underground fortresses in the rainforest!",
     "The bullet ant is said to have the most painful sting in the world! - Living in humid jungle conditions such as the Amazon, their sting has been compared to being hit by a bullet – ouch!",
     "Fire ants cause over £3 billion worth of damage a year! - North America’s red imported fire ant might only be little, but the tiny critters have a painful bite which causes a burning sensation – hence the name “fire ant”, which costs the US millions in veterinary and medical bills every year! They’ve also been known to cause damage to farmer’s crops.",
@@ -10,4 +10,4 @@ facts = [
     "Ants don’t have ears, and some of them don’t have eyes! - Ants “listen” by feeling vibrations from the ground through their feet, and eye-less ants such as the driver ant species can communicate by using their antennae! Plus, they can send chemical signals (called pheremones) released through their body to send messages to other ants! They send out warnings when danger’s near, leave trails of pheremones leading to food sources and even use them to attract a mate – a sort of ant love potion!",
     "The largest ant’s nest ever found was over 3,700 miles wide! - Found in Argentina in 2000, the ginormous colony housed 33 ant populations which had merged into one giant supercolony, with millions of nests and billions of workers!",
     "Ants are small and can be eaten with chocoalte"
-]
+];
