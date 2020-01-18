@@ -10,4 +10,3 @@ exports.handler = async (event) => {
         body: facts.random(),
     };
 };
-
